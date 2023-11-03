@@ -13,7 +13,7 @@ wget https://raw.githubusercontent.com/reyfull/emby-crx/master/config.js -P emby
 wget https://raw.githubusercontent.com/reyfull/emby-crx/master/main.js -P emby-crx/
 rm -rf /system/dashboard-ui/css/icons
 mkdir -p /system/dashboard-ui/css/icons
-wget https://raw.githubusercontent.com/reyfull/emby-crx/master/icon-Copy.webp -P system/dashboard-ui/css/icons/
+wget https://raw.githubusercontent.com/reyfull/emby-crx/master/icon-Copy.webp -P css/icons/
 # 读取index.html文件内容
 content=$(cat index.html)
 
