@@ -25,8 +25,6 @@ wget https://raw.githubusercontent.com/reyfull/emby-crx/master/icon-VLC.webp -P 
 wget https://raw.githubusercontent.com/reyfull/emby-crx/master/PeoplePlus.js -P emby-crx/
 wget https://raw.githubusercontent.com/reyfull/emby-crx/master/ede.user.js -P emby-crx/
 wget https://raw.githubusercontent.com/reyfull/emby-crx/master/danmaku.min.js -P emby-crx/
-# 下列是隱藏沒有頭像的演員
-# 下列2個是彈幕檔案,還在測試中
 
 # 读取index.html文件内容
 content=$(cat index.html)
