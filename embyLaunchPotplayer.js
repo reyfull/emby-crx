@@ -52,16 +52,16 @@
         document.querySelector("div[is='emby-scroller']:not(.hide) #embyDandanplay").onclick = embyDandanplay;
 
         //add icons
-        document.querySelector("div[is='emby-scroller']:not(.hide) .icon-PotPlayer").style.cssText += 'background: url(css/icons/icon-PotPlayer.webp)no-repeat;background-size: 100% 100%;font-size: 1.4em';
-        document.querySelector("div[is='emby-scroller']:not(.hide) .icon-IINA").style.cssText += 'background: url(css/icons/icon-IINA.webp)no-repeat;background-size: 100% 100%;font-size: 1.4em';
-        document.querySelector("div[is='emby-scroller']:not(.hide) .icon-MXPlayer").style.cssText += 'background: url(css/icons/icon-MXPlayer.webp)no-repeat;background-size: 100% 100%;font-size: 1.4em';
-        document.querySelector("div[is='emby-scroller']:not(.hide) .icon-infuse").style.cssText += 'background: url(css/icons/icon-infuse.webp)no-repeat;background-size: 100% 100%;font-size: 1.4em';
-        document.querySelector("div[is='emby-scroller']:not(.hide) .icon-VLC").style.cssText += 'background: url(css/icons/icon-VLC.webp)no-repeat;background-size: 100% 100%;font-size: 1.3em';
-        document.querySelector("div[is='emby-scroller']:not(.hide) .icon-NPlayer").style.cssText += 'background: url(css/icons/icon-NPlayer.webp)no-repeat;background-size: 100% 100%;font-size: 1.3em';
-        document.querySelector("div[is='emby-scroller']:not(.hide) .icon-StellarPlayer").style.cssText += 'background: url(css/icons/icon-StellarPlayer.webp)no-repeat;background-size: 100% 100%;font-size: 1.4em';
-        document.querySelector("div[is='emby-scroller']:not(.hide) .icon-MPV").style.cssText += 'background: url(css/icons/icon-MPV.webp)no-repeat;background-size: 100% 100%;font-size: 1.4em';
-        document.querySelector("div[is='emby-scroller']:not(.hide) .icon-DandanPlay").style.cssText += 'background: url(css/icons/icon-DandanPlay.webp)no-repeat;background-size: 100% 100%;font-size: 1.4em';
-        document.querySelector("div[is='emby-scroller']:not(.hide) .icon-Copy").style.cssText += 'background: url(css/icons/icon-Copy.webp)no-repeat;background-size: 100% 100%;font-size: 1.4em';
+        document.querySelector("div[is='emby-scroller']:not(.hide) .icon-PotPlayer").style.cssText += 'background: url(emby-crx/icon-PotPlayer.webp)no-repeat;background-size: 100% 100%;font-size: 1.4em';
+        document.querySelector("div[is='emby-scroller']:not(.hide) .icon-IINA").style.cssText += 'background: url(emby-crx/icon-IINA.webp)no-repeat;background-size: 100% 100%;font-size: 1.4em';
+        document.querySelector("div[is='emby-scroller']:not(.hide) .icon-MXPlayer").style.cssText += 'background: url(emby-crx/icon-MXPlayer.webp)no-repeat;background-size: 100% 100%;font-size: 1.4em';
+        document.querySelector("div[is='emby-scroller']:not(.hide) .icon-infuse").style.cssText += 'background: url(emby-crx/icon-infuse.webp)no-repeat;background-size: 100% 100%;font-size: 1.4em';
+        document.querySelector("div[is='emby-scroller']:not(.hide) .icon-VLC").style.cssText += 'background: url(emby-crx/icon-VLC.webp)no-repeat;background-size: 100% 100%;font-size: 1.3em';
+        document.querySelector("div[is='emby-scroller']:not(.hide) .icon-NPlayer").style.cssText += 'background: url(emby-crx/icon-NPlayer.webp)no-repeat;background-size: 100% 100%;font-size: 1.3em';
+        document.querySelector("div[is='emby-scroller']:not(.hide) .icon-StellarPlayer").style.cssText += 'background: url(emby-crx/icon-StellarPlayer.webp)no-repeat;background-size: 100% 100%;font-size: 1.4em';
+        document.querySelector("div[is='emby-scroller']:not(.hide) .icon-MPV").style.cssText += 'background: url(emby-crx/icon-MPV.webp)no-repeat;background-size: 100% 100%;font-size: 1.4em';
+        document.querySelector("div[is='emby-scroller']:not(.hide) .icon-DandanPlay").style.cssText += 'background: url(emby-crx/icon-DandanPlay.webp)no-repeat;background-size: 100% 100%;font-size: 1.4em';
+        document.querySelector("div[is='emby-scroller']:not(.hide) .icon-Copy").style.cssText += 'background: url(emby-crx/icon-Copy.webp)no-repeat;background-size: 100% 100%;font-size: 1.4em';
     }
 
     function showFlag() {
