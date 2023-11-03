@@ -4,7 +4,6 @@
 # wget https://raw.githubusercontent.com/reyfull/emby-crx/master/emby_4.8.0.55/index.html -P /
 rm -rf emby-crx
 mkdir -p emby-crx
-
 wget https://raw.githubusercontent.com/reyfull/emby-crx/master/md5.min.js -P emby-crx/
 wget https://raw.githubusercontent.com/reyfull/emby-crx/master/config.js -P emby-crx/
 wget https://raw.githubusercontent.com/reyfull/emby-crx/master/main.js -P emby-crx/
