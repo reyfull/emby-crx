@@ -12,8 +12,8 @@ wget https://raw.githubusercontent.com/reyfull/emby-crx/master/md5.min.js -P emb
 wget https://raw.githubusercontent.com/reyfull/emby-crx/master/config.js -P emby-crx/
 wget https://raw.githubusercontent.com/reyfull/emby-crx/master/main.js -P emby-crx/
 
-rm -rf /css/icons
-mkdir -p /css/icons
+rm -rf /css/icons/
+mkdir -p /css/icons/
 
 # 读取index.html文件内容
 content=$(cat index.html)
