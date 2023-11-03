@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # 创建emby-crx目录并下载所需文件
-# wget https://raw.githubusercontent.com/reyfull/emby-crx/master/emby_4.8.0.55/index.html -P /
 rm -rf emby-crx
 mkdir -p emby-crx
 rm -rf /system/dashboard-ui/css/icons
@@ -23,6 +22,7 @@ wget https://raw.githubusercontent.com/reyfull/emby-crx/master/icon-NPlayer.webp
 wget https://raw.githubusercontent.com/reyfull/emby-crx/master/icon-PotPlayer.webp -P emby-crx/
 wget https://raw.githubusercontent.com/reyfull/emby-crx/master/icon-StellarPlayer.webp -P emby-crx/
 wget https://raw.githubusercontent.com/reyfull/emby-crx/master/icon-VLC.webp -P emby-crx/
+# 下列2個是彈幕檔案,還在測試中
 wget https://raw.githubusercontent.com/reyfull/emby-crx/master/ede.user.js -P emby-crx/
 wget https://raw.githubusercontent.com/reyfull/emby-crx/master/danmaku.min.js -P emby-crx/
 # 读取index.html文件内容
