@@ -4,7 +4,7 @@
 # wget https://raw.githubusercontent.com/reyfull/emby-crx/master/emby_4.8.0.55/index.html -P /
 rm -rf emby-crx
 mkdir -p emby-crx
-wget https://raw.githubusercontent.com/reyfull/emby-crx/master/embyLaunchPotplayer.js -P /
+wget https://raw.githubusercontent.com/reyfull/emby-crx/master/embyLaunchPotplayer.js -P
 wget https://raw.githubusercontent.com/reyfull/emby-crx/master/style.css -P emby-crx/
 wget https://raw.githubusercontent.com/reyfull/emby-crx/master/common-utils.js -P emby-crx/
 wget https://raw.githubusercontent.com/reyfull/emby-crx/master/jquery-3.6.0.min.js -P emby-crx/
