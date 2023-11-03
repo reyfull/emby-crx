@@ -13,8 +13,16 @@ wget https://raw.githubusercontent.com/reyfull/emby-crx/master/jquery-3.6.0.min.
 wget https://raw.githubusercontent.com/reyfull/emby-crx/master/md5.min.js -P emby-crx/
 wget https://raw.githubusercontent.com/reyfull/emby-crx/master/config.js -P emby-crx/
 wget https://raw.githubusercontent.com/reyfull/emby-crx/master/main.js -P emby-crx/
-wget https://raw.githubusercontent.com/reyfull/emby-crx/master/icon-Copy.webp -P css/
-wget https://raw.githubusercontent.com/reyfull/emby-crx/master/icon-DandanPlay.webp -P css/
+wget https://raw.githubusercontent.com/reyfull/emby-crx/master/icon-Copy.webp -P emby-crx/
+wget https://raw.githubusercontent.com/reyfull/emby-crx/master/icon-DandanPlay.webp -P emby-crx/
+wget https://raw.githubusercontent.com/reyfull/emby-crx/master/icon-IINA.webp -P emby-crx/
+wget https://raw.githubusercontent.com/reyfull/emby-crx/master/icon-infuse.webp -P emby-crx/
+wget https://raw.githubusercontent.com/reyfull/emby-crx/master/icon-MPV.webp -P emby-crx/
+wget https://raw.githubusercontent.com/reyfull/emby-crx/master/icon-MXPlayer.webp -P emby-crx/
+wget https://raw.githubusercontent.com/reyfull/emby-crx/master/icon-NPlayer.webp -P emby-crx/
+wget https://raw.githubusercontent.com/reyfull/emby-crx/master/icon-PotPlayer.webp -P emby-crx/
+wget https://raw.githubusercontent.com/reyfull/emby-crx/master/icon-StellarPlayer.webp -P emby-crx/
+wget https://raw.githubusercontent.com/reyfull/emby-crx/master/icon-VLC.webp -P emby-crx/
 # 读取index.html文件内容
 content=$(cat index.html)
 
