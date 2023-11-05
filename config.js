@@ -1,6 +1,6 @@
 class Config{
 	constructor() {
-		//媒体库id，用逗号分隔。进入媒体库后url里的parentId
+		//媒体库id，用逗号分隔。进入媒体库后url里的parentId,沒有指定的話就是所有媒體庫會輪播一次
 		//this.parentId = "";
                 this.parentId = "";
 		//滚屏间隔 ms，預設是8000=8秒，修改成80000=80秒
